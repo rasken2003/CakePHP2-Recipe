@@ -56,6 +56,11 @@
 		'level' => E_ALL & ~E_DEPRECATED,
 		'trace' => true
 	));
+// 	Configure::write('Error', array(
+// 		'handler' => 'AppError::handleError',
+// 		'consoleHandler' => 'AppError::handleError',
+// 		'level' => E_ALL & ~E_DEPRECATED,
+// 	));
 
 /**
  * Configure the Exception handler used for uncaught exceptions. By default,
